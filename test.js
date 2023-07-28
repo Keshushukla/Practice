@@ -48,7 +48,14 @@ let str3 = str1 + str2
 // console.log(undefined >= 0);
 // console.log(undefined < 0);
 
- console.log("2" > 1);
- console.log("02" > 1);
+//  console.log("2" > 1);
+//  console.log("02" > 1);
 
 
+/**********************   Using Symbol     ****************************************/
+const id = Symbol('123');
+const anotherId = Symbol('123');
+
+console.log(id === anotherId);
+const bigNum = 9876543211234567891234534567823456787654323456789087654323456789063456787234567890n;
+console.log(typeof bigNum);
