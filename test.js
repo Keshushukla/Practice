@@ -52,10 +52,28 @@ let str3 = str1 + str2
 //  console.log("02" > 1);
 
 
-/**********************   Using Symbol     ****************************************/
-const id = Symbol('123');
-const anotherId = Symbol('123');
+// /**********************   Using Symbol     ****************************************/
+// const id = Symbol('123');
+// const anotherId = Symbol('123');
 
-console.log(id === anotherId);
-const bigNum = 9876543211234567891234534567823456787654323456789087654323456789063456787234567890n;
-console.log(typeof bigNum);
+// // console.log(id === anotherId);
+// const bigNum = 9876543211234567891234534567823456787654323456789087654323456789063456787234567890n;
+// // console.log(typeof bigNum);
+// const arr = [1,2,3,4,5];
+// console.log(typeof arr);
+
+// const str223 = new String("Keshu_Shukla");
+// console.log(str223.length);
+//     const anotherStr = str223.slice(-10,5);
+//     console.log(anotherStr);
+
+//+++++++++++++++Guess The Dice Number++++++++++++++++++++++++++/
+function diceNumber(){
+    const min = 1;
+    const max = 6;
+    console.log((Math.floor(Math.random() * (max - min + 1))+min));
+}
+
+console.log(diceNumber());
+console.log(diceNumber());
+console.log(diceNumber());
