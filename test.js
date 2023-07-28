@@ -68,12 +68,32 @@ let str3 = str1 + str2
 //     console.log(anotherStr);
 
 //+++++++++++++++Guess The Dice Number++++++++++++++++++++++++++/
-function diceNumber(){
-    const min = 1;
-    const max = 6;
-    console.log((Math.floor(Math.random() * (max - min + 1))+min));
-}
+// function diceNumber(){
+//     const min = 1;
+//     const max = 6;
+//     console.log((Math.floor(Math.random() * (max - min + 1))+min));
+// }
 
-console.log(diceNumber());
-console.log(diceNumber());
-console.log(diceNumber());
+// console.log(diceNumber());
+// console.log(diceNumber());
+// console.log(diceNumber());
+
+
+
+//++++++++++   DATE  ++++++++++++++++++++++++++++++++++++++++++++++
+
+let myDate = new Date();
+// console.log(myDate.toDateString());
+// console.log(myDate.toString());
+// console.log(myDate.toISOString());
+// console.log(myDate.toJSON());
+// console.log(myDate.toLocaleDateString());
+// console.log(myDate.toLocaleString());
+// console.log(myDate.toLocaleTimeString());
+// console.log(myDate.toTimeString());
+// console.log(myDate.toUTCString());
+// console.log(myDate.getTimezoneOffset());
+
+
+let createdDate = new Date(2023 , 0 , 23 , 15 , 35 ,6);
+console.log(createdDate.toLocaleString());
