@@ -1,17 +1,24 @@
-let arr = [1,2,3,4,5];
-console.log(arr);
+// let arr = [1,2,3,4,5];
+// console.log(arr);
 
-const myArr = new Array(0,1,2,3,4,5);
-console.log(myArr);
+// const myArr = new Array(0,1,2,3,4,5);
+// console.log(myArr);
 
-console.log("SLICE ----------");
+// console.log("SLICE ----------");
 
-const arrn1 = myArr.slice(1,3);
-console.log(arrn1);
-console.log(myArr);
+// const arrn1 = myArr.slice(1,3);
+// console.log(arrn1);
+// console.log(myArr);
 
-console.log("SPLICE ---------");
+// console.log("SPLICE ---------");
 
-const arrn2 = myArr.splice(1,3);
-console.log(arrn2);
-console.log(myArr);
+// const arrn2 = myArr.splice(1,3);
+// console.log(arrn2);
+// console.log(myArr);
+
+console.log("Flat -------------");
+
+const anotherArray = [1,2,3,[4,5],5,[6,[7,8,9]]];
+const usableArray = anotherArray.flat(3);
+
+console.log(usableArray);
