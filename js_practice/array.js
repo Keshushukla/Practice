@@ -36,15 +36,15 @@
 // console.log("From --------------");
 // console.log(Array.from("Keshu "));
 
-console.log("Of -----------");
+// console.log("Of -----------");
 
-const score1 = 100;
-const score2 = 200;
-const score3 = 300;
-const score4 = 400;
-const score5 = 500;
-const score6 = 600;
+// const score1 = 100;
+// const score2 = 200;
+// const score3 = 300;
+// const score4 = 400;
+// const score5 = 500;
+// const score6 = 600;
 
-console.log(Array.of(score1, score2, score3 , score4, score5, score6));
+// console.log(Array.of(score1, score2, score3 , score4, score5, score6));
 
 
