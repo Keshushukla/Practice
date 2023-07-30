@@ -24,11 +24,15 @@
 // console.log(usableArray);
 
 
-console.log("Spread ----------------");
+// console.log("Spread ----------------");
 
-const mHeroes = ["IronMan" , "Hulk" , "Hawkeye"];
-const dHeroes = ["SuperMan" , "Flash" , "BatMan"];
-const iHeroes = ["ShaktiMan" , "Krish"];
+// const mHeroes = ["IronMan" , "Hulk" , "Hawkeye"];
+// const dHeroes = ["SuperMan" , "Flash" , "BatMan"];
+// const iHeroes = ["ShaktiMan" , "Krish"];
 
-const allHeroes = [...mHeroes , ...dHeroes , ...iHeroes];
-console.log(allHeroes);
+// const allHeroes = [...mHeroes , ...dHeroes , ...iHeroes];
+// console.log(allHeroes);
+
+console.log("From --------------");
+
+console.log(Array.from("Keshu "));
