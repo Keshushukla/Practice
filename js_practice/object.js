@@ -64,6 +64,29 @@ const regularUser = {
         lastName : "Shukla",
     }
 }
-console.log(regularUser);
-console.log(regularUser.fullname);
-console.log(regularUser.fullname.firstName);
+// console.log(regularUser);
+// console.log(regularUser.fullname);
+// console.log(regularUser.fullname.firstName);
+
+/** ++++++ Combining objects +++++ */
+
+const obj1 = {
+    1:'a',
+    2:'b'
+}
+
+const obj2 = {3:'c', 4:'d',}
+
+console.log(obj1);
+console.log(obj2);
+
+const obj3 = {...obj1, ...obj2};
+console.log(obj3);
+
+const obj4 = Object.assign({},obj1,obj2);
+console.log(obj4);
+
+const obj5 = Object.assign(obj1,obj2);
+console.log(obj5);
+console.log(obj1);
+console.log(obj1 === obj5);
