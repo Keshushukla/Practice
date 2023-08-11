@@ -53,4 +53,17 @@ tinderUser.id = "123abc";
 tinderUser.name = "sam"
 tinderUser.isLoggedIn = "False";
 
-console.log(tinderUser);
+// console.log(tinderUser);
+
+/* ++++ Object inside Object  ++++ */
+
+const regularUser = {
+    id : '12ab',
+    fullname: {
+        firstName : "keshu",
+        lastName : "Shukla",
+    }
+}
+console.log(regularUser);
+console.log(regularUser.fullname);
+console.log(regularUser.fullname.firstName);
