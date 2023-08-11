@@ -70,23 +70,54 @@ const regularUser = {
 
 /** ++++++ Combining objects +++++ */
 
-const obj1 = {
-    1:'a',
-    2:'b'
-}
+// const obj1 = {
+//     1:'a',
+//     2:'b'
+// }
 
-const obj2 = {3:'c', 4:'d',}
+// const obj2 = {3:'c', 4:'d',}
 
-console.log(obj1);
-console.log(obj2);
+// console.log(obj1);
+// console.log(obj2);
 
-const obj3 = {...obj1, ...obj2};
-console.log(obj3);
+// const obj3 = {...obj1, ...obj2};
+// console.log(obj3);
 
-const obj4 = Object.assign({},obj1,obj2);
-console.log(obj4);
+// const obj4 = Object.assign({},obj1,obj2);
+// console.log(obj4);
 
-const obj5 = Object.assign(obj1,obj2);
-console.log(obj5);
-console.log(obj1);
-console.log(obj1 === obj5);
+// const obj5 = Object.assign(obj1,obj2);
+// console.log(obj5);
+// console.log(obj1);
+// console.log(obj1 === obj5);
+
+/** Array Of Objects */
+
+const users = [
+    {
+        id: '1',
+        name:'a'
+    },
+    {
+        id:'2',
+        name:'b'
+    },
+    {
+        id:'3',
+        name:'c'
+    }
+]
+
+console.log(users[1].name);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+
+/** ENTRIES PROPERTY */
+
+console.log(Object.entries(tinderUser));
+
+/** Check whether value is present or not */
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+console.log(tinderUser.hasOwnProperty('isLogged'));
