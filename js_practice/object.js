@@ -108,16 +108,32 @@ const users = [
     }
 ]
 
-console.log(users[1].name);
+// console.log(users[1].name);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
 
 /** ENTRIES PROPERTY */
 
-console.log(Object.entries(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 /** Check whether value is present or not */
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+/** ++++++ Object Deconstructor +++++++ */
+
+const course = {
+    userName:"keshu",
+    courseName:"js",
+    price:"9999"
+}
+
+console.log(course.courseName);
+
+const {courseName} = course;
+console.log(courseName);
+
+const {userName: name} = course;
+console.log(name);
