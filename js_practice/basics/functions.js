@@ -13,10 +13,27 @@
 
 /** +++++REST OPERATOR++++ */
 
-function calcPrice(num1 , num2 , ...num3){
-    console.log(num1);
-    console.log(num2);
-    console.log(num3);
+// function calcPrice(num1 , num2 , ...num3){
+//     console.log(num1);
+//     console.log(num2);
+//     console.log(num3);
+// }
+
+// calcPrice(100, 200, 300, 400, 500, 600, 700, 800);
+
+/** ++++Passing Object to Function++++ */
+
+const user = {
+    name :"Keshu",
+    price :"99"
 }
 
-calcPrice(100, 200, 300, 400, 500, 600, 700, 800);
+function handleObject(anyObject) {
+    console.log(`User Name is ${anyObject.name} and price is ${anyObject.price}`);
+}
+
+// handleObject(user)
+handleObject({
+    name :"Keshu",
+    price :"99"
+})
