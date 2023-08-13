@@ -23,17 +23,29 @@
 
 /** ++++Passing Object to Function++++ */
 
-const user = {
-    name :"Keshu",
-    price :"99"
+// const user = {
+//     name :"Keshu",
+//     price :"99"
+// }
+
+// function handleObject(anyObject) {
+//     console.log(`User Name is ${anyObject.name} and price is ${anyObject.price}`);
+// }
+
+// // handleObject(user)
+// handleObject({
+//     name :"Keshu",
+//     price :"99"
+// })
+
+
+/** +++++ Passing array To Function +++++ */
+
+const arr = [1, 2, 3, 4, 5]
+
+function handleArray(getArr) {
+    console.log(getArr[1]);
 }
 
-function handleObject(anyObject) {
-    console.log(`User Name is ${anyObject.name} and price is ${anyObject.price}`);
-}
-
-// handleObject(user)
-handleObject({
-    name :"Keshu",
-    price :"99"
-})
+// handleArray(arr)
+handleArray([1, 2, 3, 4, 5])
