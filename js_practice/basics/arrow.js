@@ -46,7 +46,13 @@
 // +++++++++ Unnamed iife ++++++++++++++++
 (()=>{
     console.log("Unnamed IIFE");
-})()
+})();
 
+// ++++++++++++++Passing Parameter To IIFE+++++++++++++++++
+((name) => {
+    console.log(`Name is ${name}`);
+})("Keshu");
 
-// +++++++++++++++++++++++++++++++
+(function code(name){
+    console.log(`Name is ${name}`);
+})("abc")
